@@ -1,5 +1,5 @@
 """
-Unit tests for the calc library
+Unit tests
 """
 
 import calc
