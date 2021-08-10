@@ -1,0 +1,25 @@
+name: learn-github-actions
+
+on: 
+  push:
+    branches: [ '*' ]
+  pull_request:
+    branches: [ '*' ]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: deps
+        run: npm i
+
+      - name: install-ng
+        run: npm install -g @angular/cli
+
+      - name: run-project
+        run: ng serve
