@@ -45,5 +45,5 @@ testem.log
 Thumbs.db
 
 .pytest_cache/
-
 calculator/
+__pycache__/
