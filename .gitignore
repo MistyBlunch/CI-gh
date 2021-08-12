@@ -1,5 +1,4 @@
-.pytest_cache/
-calculator/
-__pycache__/
-
-.coverage
+# Executables
+*.exe
+*.out
+*.app
