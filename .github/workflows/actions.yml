@@ -17,8 +17,8 @@ jobs:
 
       # Install dependencies
       - name: install deps
-        run: sudo apt install rustc
+        run: sudo apt install -y ruby-full
 
       # Step 3: run program
       - name: run program
-        run: rustc fizzbuzz.rs
+        run: ruby reverse_strings.rb
