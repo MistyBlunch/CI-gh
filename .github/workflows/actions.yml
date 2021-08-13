@@ -15,6 +15,10 @@ jobs:
       # Step 1: obtain repo from GitHub
       - uses: actions/checkout@v2
 
-      # Step 2: run program
+      # Install dependencies
+      - name: install deps
+        run: sudo apt install rustc
+
+      # Step 3: run program
       - name: run program
         run: go run random.go
