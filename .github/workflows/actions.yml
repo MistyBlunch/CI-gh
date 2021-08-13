@@ -21,4 +21,4 @@ jobs:
 
       # Step 3: run program
       - name: run program
-        run: go run random.go
+        run: rustc fizzbuzz.rs
