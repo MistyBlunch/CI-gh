@@ -1,5 +1,10 @@
 # CI GitHub
 #### Examples
 * Python
-* Angular
 * C++
+* go
+* js
+* ruby
+* rust
+* Angular
+* React
