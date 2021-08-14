@@ -10,7 +10,7 @@ export class CardComponent implements OnInit {
     name: 'Grace',
     lastname: 'Alvarado',
     nick: 'Misty Blunch',
-  };
+  }
 
   constructor() {}
 
