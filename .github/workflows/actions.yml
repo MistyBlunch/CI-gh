@@ -17,8 +17,8 @@ jobs:
 
       # Install dependencies
       - name: install deps
-        run: sudo apt install -y ruby-full
+        run: sudo apt install nodejs
 
       # Step 3: run program
       - name: run program
-        run: ruby reverse_strings.rb
+        run: node factorial.js
