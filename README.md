@@ -1,4 +1,4 @@
 # angular-simple-card
 #### Getting Started
 * npm i
-* ng build
+* ng serve
