@@ -1,3 +1,3 @@
 # Números Amstrong
-**** Getting Started
+#### Getting Started
 * g++ main.cpp
