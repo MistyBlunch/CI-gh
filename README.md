@@ -1,4 +1,3 @@
-# CI GitHub
-#### Examples
-* Python
-* Angular
+# Números Amstrong
+**** Getting Started
+* g++ main.cpp
