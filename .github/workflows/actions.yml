@@ -17,4 +17,4 @@ jobs:
 
       # Step 2: run program
       - name: run program
-        run: go run random.go
+        run: go run fibo.go

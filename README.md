@@ -1,4 +1,3 @@
-# CI GitHub
-#### Examples
-* Python
-* Angular
+# Get Random Numbers
+#### Getting Started
+* go run fibo.go
