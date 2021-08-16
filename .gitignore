@@ -1,5 +1,7 @@
 .pytest_cache/
 calculator/
+venv/
+myvenv/
 __pycache__/
 
 .coverage
