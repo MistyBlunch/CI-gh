@@ -1,4 +1,4 @@
-# CI GitHub
-#### Examples
-* Python
-* Angular
+# Factorial
+#### Getting Started
+* sudo apt install nodejs
+* node factorial.js 

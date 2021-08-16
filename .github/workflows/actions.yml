@@ -21,4 +21,4 @@ jobs:
 
       # Step 3: run program
       - name: run program
-        run: node factorial.js
+        run: node factorial.js 
