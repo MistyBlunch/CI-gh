@@ -18,7 +18,7 @@ bool isArmstrong(size_t number) {
 
   if(counter != number) 
     return false;
-  return true
+  return true;
 }
 
 int main() {

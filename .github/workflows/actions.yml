@@ -1,4 +1,4 @@
-name: ci-python
+name: ci-c++
 
 on: 
   push:
