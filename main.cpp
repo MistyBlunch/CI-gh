@@ -18,11 +18,11 @@ bool isArmstrong(size_t number) {
 
   if(counter != number) 
     return false;
-  return true;
+  return true
 }
 
 int main() {
-  if(isArmstrong(1634)) 
+  if(isArmstrong(370)) 
     cout << "Es Armstrong\n";
   else
     cout << "No es Armstrong\n";
